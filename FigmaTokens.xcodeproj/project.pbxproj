@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C22AB440A200BFC216 /* Tokens.swift */; };
+		7B98E1C52AB528B500BFC216 /* TokenShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C42AB528B500BFC216 /* TokenShadow.swift */; };
+		7B98E1C72AB5298200BFC216 /* TokenTypo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C62AB5298200BFC216 /* TokenTypo.swift */; };
+		7B98E1C92AB52B4200BFC216 /* TokenBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C82AB52B4200BFC216 /* TokenBorder.swift */; };
 		7BDEA87F2AB2A82400D62FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA87E2AB2A82400D62FDD /* AppDelegate.swift */; };
 		7BDEA8812AB2A82400D62FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA8802AB2A82400D62FDD /* SceneDelegate.swift */; };
 		7BDEA8832AB2A82400D62FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA8822AB2A82400D62FDD /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B98E1C22AB440A200BFC216 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		7B98E1C42AB528B500BFC216 /* TokenShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenShadow.swift; sourceTree = "<group>"; };
+		7B98E1C62AB5298200BFC216 /* TokenTypo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTypo.swift; sourceTree = "<group>"; };
+		7B98E1C82AB52B4200BFC216 /* TokenBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBorder.swift; sourceTree = "<group>"; };
 		7BDEA87B2AB2A82400D62FDD /* FigmaTokens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaTokens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDEA87E2AB2A82400D62FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BDEA8802AB2A82400D62FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B98E1AF2AB402D000BFC216 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEA87E2AB2A82400D62FDD /* AppDelegate.swift */,
+				7BDEA8802AB2A82400D62FDD /* SceneDelegate.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		7B98E1B02AB402E000BFC216 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEA8822AB2A82400D62FDD /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B98E1B12AB402EA00BFC216 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7BDEA8892AB2A82500D62FDD /* LaunchScreen.storyboard */,
+				7BDEA8842AB2A82400D62FDD /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B98E1B22AB4032C00BFC216 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				7B98E1C22AB440A200BFC216 /* Tokens.swift */,
+				7B98E1C42AB528B500BFC216 /* TokenShadow.swift */,
+				7B98E1C62AB5298200BFC216 /* TokenTypo.swift */,
+				7B98E1C82AB52B4200BFC216 /* TokenBorder.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
 		7BDEA8722AB2A82400D62FDD = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +144,11 @@
 		7BDEA87D2AB2A82400D62FDD /* FigmaTokens */ = {
 			isa = PBXGroup;
 			children = (
-				7BDEA87E2AB2A82400D62FDD /* AppDelegate.swift */,
-				7BDEA8802AB2A82400D62FDD /* SceneDelegate.swift */,
-				7BDEA8822AB2A82400D62FDD /* ViewController.swift */,
-				7BDEA8842AB2A82400D62FDD /* Main.storyboard */,
+				7B98E1B22AB4032C00BFC216 /* Tokens */,
+				7B98E1B12AB402EA00BFC216 /* Storyboard */,
+				7B98E1B02AB402E000BFC216 /* Views */,
+				7B98E1AF2AB402D000BFC216 /* Apps */,
 				7BDEA8872AB2A82500D62FDD /* Assets.xcassets */,
-				7BDEA8892AB2A82500D62FDD /* LaunchScreen.storyboard */,
 				7BDEA88C2AB2A82500D62FDD /* Info.plist */,
 			);
 			path = FigmaTokens;
@@ -258,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B98E1C52AB528B500BFC216 /* TokenShadow.swift in Sources */,
 				7BDEA8832AB2A82400D62FDD /* ViewController.swift in Sources */,
 				7BDEA87F2AB2A82400D62FDD /* AppDelegate.swift in Sources */,
+				7B98E1C72AB5298200BFC216 /* TokenTypo.swift in Sources */,
+				7B98E1C92AB52B4200BFC216 /* TokenBorder.swift in Sources */,
 				7BDEA8812AB2A82400D62FDD /* SceneDelegate.swift in Sources */,
+				7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
