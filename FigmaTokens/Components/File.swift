@@ -35,7 +35,7 @@ public class StyleDictionaryClass {
       )
     public static let globalLg = CGFloat(30)
     public static let globalMd = CGFloat(24)
-    public static let globalRegular = .regular
+    public static let globalRegular = UIFont.Weight.regular
     public static let globalShadowBlue = TokenShadow(
       offset: CGSize(width: 0, height: 4),
       color: UIColor(argb: 0x0C6DFF80),
