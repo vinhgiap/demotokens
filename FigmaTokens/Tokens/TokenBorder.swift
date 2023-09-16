@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct TokenBorder {
+public struct TokenBorder {
     var borderColor: UIColor
     var borderWidth: CGFloat
 }

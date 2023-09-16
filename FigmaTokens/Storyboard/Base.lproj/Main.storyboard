@@ -84,7 +84,7 @@
                                                     </view>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUv-H6-U9p">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUv-H6-U9p">
                                                 <rect key="frame" x="0.0" y="212.66666666666663" width="337" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="E1n-fE-LRX"/>

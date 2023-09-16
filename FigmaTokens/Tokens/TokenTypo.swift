@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct TokenTypo {
+public struct TokenTypo {
     let fontFamily: String
     let fontWeight: UIFont.Weight
     let fontSize: CGFloat
