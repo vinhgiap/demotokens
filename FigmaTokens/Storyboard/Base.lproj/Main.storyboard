@@ -17,10 +17,90 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZaK-pt-3hN">
-                                <rect key="frame" x="16" y="176" width="361" height="500"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="16" y="283.66666666666663" width="361" height="284.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="KNa-Jf-82T">
+                                        <rect key="frame" x="12" y="12" width="337" height="260.66666666666669"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="gGN-Jm-XAe">
+                                                <rect key="frame" x="0.0" y="0.0" width="337" height="82.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pte-p3-PkY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="337" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nzt-pN-zGW">
+                                                        <rect key="frame" x="0.0" y="32.333333333333314" width="337" height="50"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ww1-yG-Pba">
+                                                                <rect key="frame" x="8" y="0.0" width="321" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="ZZs-JE-oV9"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Ww1-yG-Pba" secondAttribute="trailing" constant="8" id="EWF-6T-hr1"/>
+                                                            <constraint firstItem="Ww1-yG-Pba" firstAttribute="top" secondItem="Nzt-pN-zGW" secondAttribute="top" id="O0F-gT-lwb"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Ww1-yG-Pba" secondAttribute="bottom" id="gDx-ac-awR"/>
+                                                            <constraint firstItem="Ww1-yG-Pba" firstAttribute="leading" secondItem="Nzt-pN-zGW" secondAttribute="leading" constant="8" id="kkV-Tm-iqg"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="NbD-Yl-zGu">
+                                                <rect key="frame" x="0.0" y="106.33333333333331" width="337" height="82.333333333333314"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWB-2S-LOV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="337" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKu-7Q-sof">
+                                                        <rect key="frame" x="0.0" y="32.333333333333314" width="337" height="50"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8wo-N1-Y95">
+                                                                <rect key="frame" x="8" y="0.0" width="321" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="jB0-u4-IsX"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="8wo-N1-Y95" secondAttribute="trailing" constant="8" id="9Bs-Bb-aoa"/>
+                                                            <constraint firstAttribute="bottom" secondItem="8wo-N1-Y95" secondAttribute="bottom" id="PiQ-sL-n1B"/>
+                                                            <constraint firstItem="8wo-N1-Y95" firstAttribute="top" secondItem="EKu-7Q-sof" secondAttribute="top" id="Vrp-6t-nex"/>
+                                                            <constraint firstItem="8wo-N1-Y95" firstAttribute="leading" secondItem="EKu-7Q-sof" secondAttribute="leading" constant="8" id="x6I-93-lJO"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUv-H6-U9p">
+                                                <rect key="frame" x="0.0" y="212.66666666666663" width="337" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="E1n-fE-LRX"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="oc2-bb-NxZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KNa-Jf-82T" secondAttribute="bottom" constant="12" id="Mnw-rh-A2S"/>
+                                    <constraint firstItem="KNa-Jf-82T" firstAttribute="leading" secondItem="ZaK-pt-3hN" secondAttribute="leading" constant="12" id="Xxs-WB-UES"/>
+                                    <constraint firstItem="KNa-Jf-82T" firstAttribute="top" secondItem="ZaK-pt-3hN" secondAttribute="top" constant="12" id="bJA-zr-S1R"/>
+                                    <constraint firstAttribute="trailing" secondItem="KNa-Jf-82T" secondAttribute="trailing" constant="12" id="ne2-Vd-RC3"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -34,6 +114,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="VUv-H6-U9p" id="Zek-iA-PR2"/>
+                        <outlet property="companyContainer" destination="EKu-7Q-sof" id="5a5-Vm-HNN"/>
+                        <outlet property="companyLabel" destination="TWB-2S-LOV" id="cnh-gJ-WVg"/>
+                        <outlet property="companyTextfield" destination="8wo-N1-Y95" id="RAk-U3-ARc"/>
+                        <outlet property="emailContainer" destination="Nzt-pN-zGW" id="5hH-Vm-ksG"/>
+                        <outlet property="emailLabel" destination="Pte-p3-PkY" id="ief-fh-9JE"/>
+                        <outlet property="emailTextfield" destination="Ww1-yG-Pba" id="u9P-Xu-Wb7"/>
                         <outlet property="formContainer" destination="ZaK-pt-3hN" id="6Wq-yl-PSI"/>
                     </connections>
                 </viewController>

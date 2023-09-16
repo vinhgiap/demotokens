@@ -9,6 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
+    
+    @IBOutlet weak var companyTextfield: UITextField!
+    @IBOutlet weak var companyContainer: UIView!
+    @IBOutlet weak var companyLabel: UILabel!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var emailContainer: UIView!
     
     @IBOutlet weak var formContainer: UIView!
     
@@ -19,9 +28,20 @@ class ViewController: UIViewController {
     }
     
     private func setupUI() {
-        UIFont.Weight.regular
+        configComponent(companyContainer, label: companyLabel, textfield: companyTextfield)
+        configComponent(emailContainer, label: emailLabel, textfield: emailTextfield)
+        configButton()
+
     }
   
+    private func configComponent(_ container: UIView, label: UILabel, textfield: UITextField ) {
+        
+    }
+    
+    private func configButton() {
+        
+    }
+    
 
 
 }
