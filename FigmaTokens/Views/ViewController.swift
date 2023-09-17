@@ -8,7 +8,39 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var formContainer: UIView!
+    
+    @IBOutlet weak var firstnameLabel: UILabel!
+    @IBOutlet weak var firtnameContainer: UIView!
+    @IBOutlet weak var firstnameTextfield: UITextField!
+    
+    @IBOutlet weak var lastnameLabel: UILabel!
+    @IBOutlet weak var lastnameContainer: UIView!
+    @IBOutlet weak var lastnameTextfield: UITextField!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var emailContainer: UIView!
+    @IBOutlet weak var emailTextfield: UITextField!
+    
+    @IBOutlet weak var dobLabel: UILabel!
+    @IBOutlet weak var dayContainer: UIView!
+    @IBOutlet weak var monthContainer: UIView!
+    @IBOutlet weak var yearContainer: UIView!
+    @IBOutlet weak var dayTextfield: UITextField!
+    @IBOutlet weak var yearTextfield: UITextField!
+    @IBOutlet weak var monthTextfield: UITextField!
+    
+    @IBOutlet weak var companyTextfield: UITextField!
+    @IBOutlet weak var companyContainer: UIView!
+    @IBOutlet weak var companyLabel: UILabel!
+    
+    @IBOutlet weak var errorContainer: UIView!
+    @IBOutlet weak var errorIcon: UIView!
+    @IBOutlet weak var errorTitle: UILabel!
+    @IBOutlet weak var errorSubtitle: UILabel!
+    
+    @IBOutlet weak var submitButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,29 +48,28 @@ class ViewController: UIViewController {
     }
     
     private func setupUI() {
-//        self.formContainer.layer.masksToBounds = false
-//        self.formContainer.backgroundColor = StyleDictionaryClass.globalColorBg
-//        self.formContainer.layer.shadowOffset = StyleDictionaryClass.globalShadowGray.offset
-//        self.formContainer.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
-//        self.formContainer.layer.shadowColor = StyleDictionaryClass.globalShadowGray.color.cgColor
-//        self.formContainer.layer.shadowRadius = StyleDictionaryClass.globalShadowGray.blur/2
-//        self.formContainer.layer.shadowOpacity = 0.25
-//
-//        configComponent(companyContainer, label: companyLabel, textfield: companyTextfield)
-//        configComponent(emailContainer, label: emailLabel, textfield: emailTextfield)
-//        configButton()
+        self.formContainer.layer.masksToBounds = false
+        self.formContainer.backgroundColor = StyleDictionaryClass.globalColorBg
+        self.formContainer.layer.shadowOffset = StyleDictionaryClass.globalShadowGray.offset
+        self.formContainer.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
+        self.formContainer.layer.shadowColor = StyleDictionaryClass.globalShadowGray.color.cgColor
+        self.formContainer.layer.shadowRadius = StyleDictionaryClass.globalShadowGray.shadowRadius
+        self.formContainer.layer.shadowOpacity = StyleDictionaryClass.globalShadowGray.shadowOpactity
+        
+
         
     }
   
-    private func configComponent(_ container: UIView, label: UILabel, textfield: UITextField ) {
-//        container.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
-//        container.layer.borderColor = StyleDictionaryClass.globalStroke.borderColor.cgColor
-//        container.layer.borderWidth = StyleDictionaryClass.globalStroke.borderWidth
-//
-//        label.font = UIFont(name: "AvenirNext-Bold", size: StyleDictionaryClass.globalLabel.fontSize)
-//        label.textColor = StyleDictionaryClass.globalColorLabelPrimary
-//
-//        textfield.font = UIFont(name: StyleDictionaryClass.globalTextfield.fontFamily, size: StyleDictionaryClass.globalTextfield.fontSize)?.withWeight(StyleDictionaryClass.globalTextfield.fontWeight)
+    private func configComponent(_ container: UIView, label: UILabel?, textfield: UITextField ) {
+        container.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
+        container.layer.borderColor = StyleDictionaryClass.globalStroke.borderColor.cgColor
+        container.layer.borderWidth = StyleDictionaryClass.globalStroke.borderWidth
+
+        if let label = label {
+            label.textColor = StyleDictionaryClass.globalColorLabelPrimary
+        }
+
+        textfield.font = UIFont(name: StyleDictionaryClass.globalTextfield.fontFamily, size: StyleDictionaryClass.globalTextfield.fontSize)
         
     }
     

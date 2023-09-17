@@ -40,12 +40,12 @@ public class StyleDictionaryClass {
     public static let globalShadowBlue = TokenShadow(
       offset: CGSize(width: 0, height: 4),
       blur: 16,
-      color: UIColor(argb: 0x0C6DFF80)
+      color: UIColor(argb: 0x0C6DFF)
     )
     public static let globalShadowGray = TokenShadow(
       offset: CGSize(width: 0, height: 4),
       blur: 16,
-      color: UIColor(argb: 0x00000080)
+      color: UIColor(argb: 0x000000)
     )
     public static let globalStroke = TokenBorder(
       borderColor: UIColor(rgb: 0xD1D1D1),

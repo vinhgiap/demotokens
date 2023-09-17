@@ -11,5 +11,7 @@ public struct TokenShadow {
     var offset: CGSize
     var blur: CGFloat
     var color: UIColor
-    var opacity: CGFloat { blur/2 }
+    var shadowRadius: CGFloat { blur/2 }
+    var shadowOpactity: Float
+    
 }
