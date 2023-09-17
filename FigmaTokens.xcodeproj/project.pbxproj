@@ -27,6 +27,7 @@
 		7BDEA8A22AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */; };
 		9E6707DBDD83AF1555F8B41B /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */; };
 		9F50153D3EDA9477A3BFE554 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */; };
+		B2C48B8A72935D86A20FEB03 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B963CF0D086C5951378CC91 /* StyleDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITests.swift; sourceTree = "<group>"; };
 		7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
+		8B963CF0D086C5951378CC91 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				0B5461854275B743212BCA89 /* StyleDictionary.swift */,
 				8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */,
 				D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */,
+				8B963CF0D086C5951378CC91 /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				0E846F502F8701446BF88EA2 /* StyleDictionary.swift in Sources */,
 				9F50153D3EDA9477A3BFE554 /* StyleDictionary.swift in Sources */,
 				9E6707DBDD83AF1555F8B41B /* StyleDictionary.swift in Sources */,
+				B2C48B8A72935D86A20FEB03 /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
