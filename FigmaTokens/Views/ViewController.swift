@@ -56,8 +56,13 @@ class ViewController: UIViewController {
         self.formContainer.layer.shadowRadius = StyleDictionaryClass.globalShadowGray.shadowRadius
         self.formContainer.layer.shadowOpacity = StyleDictionaryClass.globalShadowGray.shadowOpactity
         
-
-        
+        configComponent(firtnameContainer, label: firstnameLabel, textfield: firstnameTextfield)
+        configComponent(lastnameContainer, label: lastnameLabel, textfield: lastnameTextfield)
+        configComponent(emailContainer, label: emailLabel, textfield: emailTextfield)
+        configComponent(dayContainer, label: dobLabel, textfield: dayTextfield)
+        configComponent(monthContainer, label: dobLabel, textfield: monthTextfield)
+        configComponent(yearContainer, label: dobLabel, textfield: yearTextfield)
+        configComponent(companyContainer, label: companyLabel, textfield: companyTextfield)
     }
   
     private func configComponent(_ container: UIView, label: UILabel?, textfield: UITextField ) {
@@ -67,10 +72,10 @@ class ViewController: UIViewController {
 
         if let label = label {
             label.textColor = StyleDictionaryClass.globalColorLabelPrimary
-        }
+            label.font = UIFont(name: StyleDictionaryClass.globalLabel.fontFamily, size: StyleDictionaryClass.globalLabel.fontSize)
 
+        }
         textfield.font = UIFont(name: StyleDictionaryClass.globalTextfield.fontFamily, size: StyleDictionaryClass.globalTextfield.fontSize)
-        
     }
     
     private func configButton() {

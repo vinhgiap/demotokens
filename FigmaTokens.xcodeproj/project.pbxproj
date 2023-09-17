@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E846F502F8701446BF88EA2 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5461854275B743212BCA89 /* StyleDictionary.swift */; };
 		7B50BCFC2AB55A07005B1B40 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFB2AB55A07005B1B40 /* Inter-Regular.ttf */; };
 		7B50BCFD2AB55A0D005B1B40 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */; };
 		7B50BCFE2AB55A10005B1B40 /* Cormorant-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCF92AB559ED005B1B40 /* Cormorant-Regular.ttf */; };
@@ -25,9 +24,6 @@
 		7BDEA8962AB2A82500D62FDD /* FigmaTokensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA8952AB2A82500D62FDD /* FigmaTokensTests.swift */; };
 		7BDEA8A02AB2A82500D62FDD /* FigmaTokensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */; };
 		7BDEA8A22AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */; };
-		9E6707DBDD83AF1555F8B41B /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */; };
-		9F50153D3EDA9477A3BFE554 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */; };
-		B2C48B8A72935D86A20FEB03 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B963CF0D086C5951378CC91 /* StyleDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B5461854275B743212BCA89 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		7B50BCF82AB559E4005B1B40 /* Cormorant-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cormorant-Bold.ttf"; sourceTree = "<group>"; };
 		7B50BCF92AB559ED005B1B40 /* Cormorant-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cormorant-Regular.ttf"; sourceTree = "<group>"; };
 		7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
@@ -70,9 +65,6 @@
 		7BDEA89B2AB2A82500D62FDD /* FigmaTokensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaTokensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITests.swift; sourceTree = "<group>"; };
 		7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
-		8B963CF0D086C5951378CC91 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
-		D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +95,6 @@
 		7B50BCEE2AB55039005B1B40 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0B5461854275B743212BCA89 /* StyleDictionary.swift */,
-				8B5E90856A6B5ED57323CA57 /* StyleDictionary.swift */,
-				D533F780000CA3A02ABE3E6F /* StyleDictionary.swift */,
-				8B963CF0D086C5951378CC91 /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -353,10 +341,6 @@
 				7B98E1C92AB52B4200BFC216 /* TokenBorder.swift in Sources */,
 				7BDEA8812AB2A82400D62FDD /* SceneDelegate.swift in Sources */,
 				7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */,
-				0E846F502F8701446BF88EA2 /* StyleDictionary.swift in Sources */,
-				9F50153D3EDA9477A3BFE554 /* StyleDictionary.swift in Sources */,
-				9E6707DBDD83AF1555F8B41B /* StyleDictionary.swift in Sources */,
-				B2C48B8A72935D86A20FEB03 /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
