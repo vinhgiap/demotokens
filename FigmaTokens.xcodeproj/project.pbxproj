@@ -11,7 +11,6 @@
 		7B50BCFD2AB55A0D005B1B40 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */; };
 		7B50BCFE2AB55A10005B1B40 /* Cormorant-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCF92AB559ED005B1B40 /* Cormorant-Regular.ttf */; };
 		7B50BCFF2AB55A12005B1B40 /* Cormorant-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCF82AB559E4005B1B40 /* Cormorant-Bold.ttf */; };
-		7B50BD052AB793E8005B1B40 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50BD042AB793E8005B1B40 /* Test.swift */; };
 		7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C22AB440A200BFC216 /* Tokens.swift */; };
 		7B98E1C52AB528B500BFC216 /* TokenShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C42AB528B500BFC216 /* TokenShadow.swift */; };
 		7B98E1C72AB5298200BFC216 /* TokenTypo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C62AB5298200BFC216 /* TokenTypo.swift */; };
@@ -51,7 +50,6 @@
 		7B50BCF92AB559ED005B1B40 /* Cormorant-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cormorant-Regular.ttf"; sourceTree = "<group>"; };
 		7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		7B50BCFB2AB55A07005B1B40 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		7B50BD042AB793E8005B1B40 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		7B98E1C22AB440A200BFC216 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
 		7B98E1C42AB528B500BFC216 /* TokenShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenShadow.swift; sourceTree = "<group>"; };
 		7B98E1C62AB5298200BFC216 /* TokenTypo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTypo.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		7B50BCEE2AB55039005B1B40 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				7B50BD042AB793E8005B1B40 /* Test.swift */,
 				586A042C4A217E8E85C76921 /* StyleDictionary.swift */,
 			);
 			path = Components;
@@ -345,7 +342,6 @@
 				7BDEA87F2AB2A82400D62FDD /* AppDelegate.swift in Sources */,
 				7B98E1C72AB5298200BFC216 /* TokenTypo.swift in Sources */,
 				7B98E1C92AB52B4200BFC216 /* TokenBorder.swift in Sources */,
-				7B50BD052AB793E8005B1B40 /* Test.swift in Sources */,
 				7BDEA8812AB2A82400D62FDD /* SceneDelegate.swift in Sources */,
 				7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */,
 				FAE2DD6B2CB4B7B1C5E34148 /* StyleDictionary.swift in Sources */,

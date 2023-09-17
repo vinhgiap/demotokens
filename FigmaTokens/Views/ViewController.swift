@@ -63,6 +63,16 @@ class ViewController: UIViewController {
         configComponent(monthContainer, label: dobLabel, textfield: monthTextfield)
         configComponent(yearContainer, label: dobLabel, textfield: yearTextfield)
         configComponent(companyContainer, label: companyLabel, textfield: companyTextfield)
+        
+        errorIcon.backgroundColor = StyleDictionaryClass.globalColorAlertIcon
+        errorIcon.layer.cornerRadius = 15
+        errorContainer.backgroundColor = StyleDictionaryClass.globalColorAlertBg.withAlphaComponent(0.1)
+        errorContainer.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
+        errorTitle.font = UIFont(name: StyleDictionaryClass.globalLabel.fontFamily, size: StyleDictionaryClass.globalLabel.fontSize)
+        errorSubtitle.font =  UIFont(name: StyleDictionaryClass.globalTextfield.fontFamily, size: StyleDictionaryClass.globalTextfield.fontSize)
+        errorSubtitle.textColor = StyleDictionaryClass.globalColorLabelSubtitle.withAlphaComponent(0.3)
+        
+        configButton()
     }
   
     private func configComponent(_ container: UIView, label: UILabel?, textfield: UITextField ) {
@@ -79,16 +89,16 @@ class ViewController: UIViewController {
     }
     
     private func configButton() {
-//        self.button.backgroundColor = StyleDictionaryClass.globalColorPrimary
-//        self.button.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusMd
-//        self.button.setTitle("Submit", for: .normal)
-//        self.button.setTitleColor(StyleDictionaryClass.globalColorBg, for: .normal)
-//        self.button.layer.masksToBounds = false
-//        self.button.layer.shadowOffset = StyleDictionaryClass.globalShadowBlue.offset
-//        self.button.layer.shadowColor = StyleDictionaryClass.globalShadowBlue.color.cgColor
-//        self.button.layer.shadowRadius = StyleDictionaryClass.globalShadowBlue.blur/2
-//        self.button.layer.shadowOpacity = 0.25
-
+        self.submitButton.backgroundColor = StyleDictionaryClass.globalColorPrimary
+        self.submitButton.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusMd
+        self.submitButton.setTitle("Submit", for: .normal)
+        self.submitButton.setTitleColor(StyleDictionaryClass.globalColorBg, for: .normal)
+        self.submitButton.layer.masksToBounds = false
+        self.submitButton.layer.shadowOffset = StyleDictionaryClass.globalShadowBlue.offset
+        self.submitButton.layer.shadowColor = StyleDictionaryClass.globalShadowBlue.color.cgColor
+        self.submitButton.layer.shadowRadius = StyleDictionaryClass.globalShadowBlue.blur/2
+        self.submitButton.layer.shadowOpacity = StyleDictionaryClass.globalShadowBlue.shadowOpactity
+        self.submitButton.titleLabel?.font = UIFont(name: StyleDictionaryClass.globalLabel.fontFamily, size: StyleDictionaryClass.globalLabel.fontSize)
     }
     
 
