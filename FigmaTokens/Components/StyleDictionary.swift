@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 17 Sep 2023 18:05:05 GMT
+// Generated on Sun, 17 Sep 2023 18:49:29 GMT
 
 
 import SwiftUI
@@ -40,16 +40,16 @@ public class StyleDictionaryClass {
     public static let globalShadowBlue = TokenShadow(
       offset: CGSize(width: 0, height: 4),
       blur: 16,
-      color: UIColor(rgb: 0x0C6DFF)
+      color: UIColor(argb: 0x0C6DFF80)
     )
     public static let globalShadowGray = TokenShadow(
       offset: CGSize(width: 0, height: 4),
       blur: 16,
-      color: UIColor(rgb: 0x000000)
+      color: UIColor(argb: 0x00000080)
     )
     public static let globalStroke = TokenBorder(
       borderColor: UIColor(rgb: 0xD1D1D1),
-      borderWidth: 2
+      borderWidth: 0.6
     )
     public static let globalTextfield = TokenTypo(
         fontFamily: "Inter",
