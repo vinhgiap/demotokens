@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */; };
+		727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075FB72FA882506FC2E355B /* StyleDictionary.swift */; };
 		77030E08A2793B39EF66E289 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE2B25BE091475A5E143D7 /* StyleDictionary.swift */; };
 		7B50BCFC2AB55A07005B1B40 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFB2AB55A07005B1B40 /* Inter-Regular.ttf */; };
 		7B50BCFD2AB55A0D005B1B40 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */; };
@@ -73,6 +74,7 @@
 		7BDEA89B2AB2A82500D62FDD /* FigmaTokensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaTokensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITests.swift; sourceTree = "<group>"; };
 		7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B075FB72FA882506FC2E355B /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				70B586578D0186F8A98A2860 /* StyleDictionary.swift */,
 				07BE2B25BE091475A5E143D7 /* StyleDictionary.swift */,
 				4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */,
+				B075FB72FA882506FC2E355B /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				86686D1D7FCE7ED0AA1DEA63 /* StyleDictionary.swift in Sources */,
 				77030E08A2793B39EF66E289 /* StyleDictionary.swift in Sources */,
 				5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */,
+				727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
