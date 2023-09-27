@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357625887FDC08304EAC4B06 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488D6BC5C1CB6B775DB7E361 /* StyleDictionary.swift */; };
 		5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */; };
 		727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075FB72FA882506FC2E355B /* StyleDictionary.swift */; };
 		77030E08A2793B39EF66E289 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE2B25BE091475A5E143D7 /* StyleDictionary.swift */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		07BE2B25BE091475A5E143D7 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
+		488D6BC5C1CB6B775DB7E361 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		586A042C4A217E8E85C76921 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		70B586578D0186F8A98A2860 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		7B50BCF82AB559E4005B1B40 /* Cormorant-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cormorant-Bold.ttf"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				07BE2B25BE091475A5E143D7 /* StyleDictionary.swift */,
 				4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */,
 				B075FB72FA882506FC2E355B /* StyleDictionary.swift */,
+				488D6BC5C1CB6B775DB7E361 /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				77030E08A2793B39EF66E289 /* StyleDictionary.swift in Sources */,
 				5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */,
 				727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */,
+				357625887FDC08304EAC4B06 /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
