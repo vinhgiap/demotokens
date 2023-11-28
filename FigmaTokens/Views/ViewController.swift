@@ -77,8 +77,8 @@ class ViewController: UIViewController {
   
     private func configComponent(_ container: UIView, label: UILabel?, textfield: UITextField ) {
         container.layer.cornerRadius = StyleDictionaryClass.globalCornerRadiusSm
-        container.layer.borderColor = StyleDictionaryClass.globalStroke.borderColor.cgColor
-        container.layer.borderWidth = StyleDictionaryClass.globalStroke.borderWidth
+        container.layer.borderColor = StyleDictionaryClass.globalColorStroke.cgColor
+        container.layer.borderWidth = CGFloat(StyleDictionaryClass.globalBorderWidthSm)
 
         if let label = label {
             label.textColor = StyleDictionaryClass.globalColorLabelPrimary
