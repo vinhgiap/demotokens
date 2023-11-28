@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687B66C113D79472BA7912DE /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53A82AACE16CA9295FF7D7 /* StyleDictionary.swift */; };
 		7B22C6352B15B22B00F6537D /* Testfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B22C6342B15B22B00F6537D /* Testfile.swift */; };
 		7B50BCFC2AB55A07005B1B40 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFB2AB55A07005B1B40 /* Inter-Regular.ttf */; };
 		7B50BCFD2AB55A0D005B1B40 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B50BCFA2AB559FD005B1B40 /* Inter-Bold.ttf */; };
@@ -69,6 +70,7 @@
 		7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITests.swift; sourceTree = "<group>"; };
 		7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B91C7CE924DFAC27511551B /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
+		DC53A82AACE16CA9295FF7D7 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				7B22C6342B15B22B00F6537D /* Testfile.swift */,
 				8B91C7CE924DFAC27511551B /* StyleDictionary.swift */,
+				DC53A82AACE16CA9295FF7D7 /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				7BDEA8812AB2A82400D62FDD /* SceneDelegate.swift in Sources */,
 				7B98E1C32AB440A200BFC216 /* Tokens.swift in Sources */,
 				A8A711992F0776ADD2D55DC8 /* StyleDictionary.swift in Sources */,
+				687B66C113D79472BA7912DE /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
