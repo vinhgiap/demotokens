@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06752D061327B4FBE57F9011 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80195D1D4B3FB17A50C1EE27 /* StyleDictionary.swift */; };
 		357625887FDC08304EAC4B06 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488D6BC5C1CB6B775DB7E361 /* StyleDictionary.swift */; };
 		5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */; };
 		727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075FB72FA882506FC2E355B /* StyleDictionary.swift */; };
@@ -76,6 +77,7 @@
 		7BDEA89B2AB2A82500D62FDD /* FigmaTokensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaTokensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDEA89F2AB2A82500D62FDD /* FigmaTokensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITests.swift; sourceTree = "<group>"; };
 		7BDEA8A12AB2A82500D62FDD /* FigmaTokensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTokensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80195D1D4B3FB17A50C1EE27 /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 		B075FB72FA882506FC2E355B /* StyleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				4366F3C45F20BD515A44B2C2 /* StyleDictionary.swift */,
 				B075FB72FA882506FC2E355B /* StyleDictionary.swift */,
 				488D6BC5C1CB6B775DB7E361 /* StyleDictionary.swift */,
+				80195D1D4B3FB17A50C1EE27 /* StyleDictionary.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				5DCE097C7CD73FA8066F024B /* StyleDictionary.swift in Sources */,
 				727427ECC5B3F2371F098D97 /* StyleDictionary.swift in Sources */,
 				357625887FDC08304EAC4B06 /* StyleDictionary.swift in Sources */,
+				06752D061327B4FBE57F9011 /* StyleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
